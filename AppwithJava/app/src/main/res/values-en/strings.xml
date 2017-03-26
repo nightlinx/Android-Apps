@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App with Java</string>
+    <string name="dodatek">topping: </string>
+    <string name="dodatki">toppings</string>
+    <string name="polewa">frosting</string>
+    <string name="posypka">sprinkles</string>
+    <string name="posypka_cena">sprinkles 0.5$</string>
+    <string name="polewa_cena">frosting 1.0$</string>
+    <string name="ile_paczkow">How many donuts do you want?</string>
+    <string name="cena">price</string>
+    <string name="zamow">order</string>
+    <string name="imie">Name</string>
+    <string name="liczba_paczkow">Donuts: </string>
+    <string name="zamowiono">ORDERED</string>
+    <string name="imie_dwukropek">Name: </string>
+    <string name="title_activity_zamowienie">Information about order</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App with Java</string>
+    <string name="cena">preis</string>
+    <string name="dodatek">Zutat: </string>
+    <string name="dodatki">Zutaten</string>
+    <string name="ile_paczkow">Wie viele Pfannkuchen möchten Sie? </string>
+    <string name="imie">Name</string>
+    <string name="liczba_paczkow">Menge den Pfannkuchen</string>
+    <string name="polewa">Guss</string>
+    <string name="polewa_cena">Guss 1.0$</string>
+    <string name="posypka">Puder</string>
+    <string name="posypka_cena">Puder 0.5$</string>
+    <string name="zamow">bestellen</string>
+    <string name="zamowiono">BESTELLEN</string>
+    <string name="imie_dwukropek">Name: </string>
+    <string name="title_activity_zamowienie">Informationen über die Bestellung</string>
+</resources>

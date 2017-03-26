@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">App with Java</string>
+
+    <string name="dodatki">dodatki</string>
+    <string name="dodatek">dodatek: </string>
+    <string name="posypka">posypka</string>
+    <string name="polewa">polewa</string>
+    <string name="ile_paczkow">Ile chcesz pączków</string>
+    <string name="posypka_cena">posypka 0.5$</string>
+    <string name="polewa_cena">polewa 1.0$</string>
+    <string name="cena">cena</string>
+    <string name="zamow">zamów</string>
+    <string name="zamowiono">ZAMÓWIONO</string>
+    <string name="liczba_paczkow">Liczba pączków: </string>
+    <string name="imie">Imię i nazwisko</string>
+    <string name="imie_dwukropek">Imię i nazwisko: </string>
+    <string name="email">E-mail</string>
+    <string name="sms">sms</string>
+
+    <string name="title_activity_zamowienie">Informacje o zamowieniu</string>
+    <string name="odwiedz_nas">Zobacz nasze pączki klikając na obrazek! </string>
+
+</resources>
