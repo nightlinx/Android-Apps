@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     private SharedPreferences sharedPreferences;
     private SharedPreferences.Editor editor;
     private MediaPlayer mp;
- //   private ToggleButton toggle;
+ // private ToggleButton toggle;
     private Switch switcher;
 
 
@@ -41,13 +41,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        toggle = (ToggleButton) findViewById(R.id.music);
+//      toggle = (ToggleButton) findViewById(R.id.music);
         switcher = (Switch) findViewById(R.id.switchMusic);
 
- //       toggle.setChecked(true);
+ //     toggle.setChecked(true);
         mp = MediaPlayer.create(this, R.raw.mariotheme);
         mp.setLooping(true);
-//        mp.start();
+//      mp.start();
 
         sharedPreferences = getSharedPreferences("com.example.anna.guessgame", Context.MODE_PRIVATE );
         editor = sharedPreferences.edit();
@@ -92,7 +92,6 @@ public class MainActivity extends AppCompatActivity {
         MainActivity.this.startActivity(myIntent);
     }
 
-    //inne menu (wydaje się spoko), ale nie wiem jak je wywołać.
 /* @Override
     public void onCreateContextMenu(ContextMenu menu, View v,
         ContextMenu.ContextMenuInfo menuInfo) {
@@ -115,14 +114,12 @@ public class MainActivity extends AppCompatActivity {
 */
     @Override
     protected void onStart() {
-        // TODO Auto-generated method stub
         Log.i("ON", "onStart");
         super.onStart();
     }
 
     @Override
     protected void onResume() {
-        // TODO Auto-generated method stub
         Log.i("ON", "onResume");
         super.onResume();
         if(switcher.isChecked()) {
@@ -132,7 +129,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onPause() {
-        // TODO Auto-generated method stub
         super.onPause();
         Log.i("ON", "onPause");
         mp.pause();
@@ -141,7 +137,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStop()
     {
-        // TODO Auto-generated method stub
         super.onStop();
         Log.i("ON", "onStop");
     }
