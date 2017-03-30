@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+    <string name="author">Anna Skalecka</string>
+    <string name="appInfo">Aplikacja daje możliość wyboru menu, podania swoich danych osobowych oraz ocenienia firmy.</string>
+    <string name="appTitle">Składanie zamówienia w restauracji</string>
+    <string name="menu">menu</string>
+    <string name="ofertaDnia">oferta dnia</string>
+    <string name="zupa1">Rosół z kury</string>
+    <string name="zupa2">Zupa krem z brokułów</string>
+    <string name="zupy">zupy</string>
+    <string name="zupa3">Zupa dyniowa z grzankami</string>
+    <string name="dania">dania</string>
+    <string name="danie2">Pieczone żeberka</string>
+    <string name="danie3">Duszone warzywa</string>
+    <string name="danie4">Pierogi z truskawkami</string>
+    <string name="danie1">Skrzydełka na ostro</string>
+    <string name="desery">desery</string>
+    <string name="deser1">Sernik z lodami</string>
+    <string name="deser2">Muffinka czekoladowa</string>
+    <string name="deser3">Puchar lodowy, owocowy</string>
+    <string name="powrot">powrot</string>
+    <string name="podsumowaniet">podsumowanie</string>
+    <string name="dalej">dalej</string>
+    <string name="imie">Imie</string>
+    <string name="nazwisko">Nazwisko</string>
+    <string name="adres">Adres</string>
+    <string name="numerTelefonu">Numer telefonu</string>
+    <string name="zamowienie">ZAMÓWIENIE</string>
+    <string name="infoZamowienie">Podsumowanie</string>
+    <string name="daneOsobowe">DANE OSOBOWE</string>
+    <string name="rate">Oceń naszą restaurację!</string>
+    <string name="relative">relative</string>
+    <string name="linear">linear</string>
+</resources>
