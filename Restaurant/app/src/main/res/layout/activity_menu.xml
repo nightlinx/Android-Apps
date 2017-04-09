@@ -147,6 +147,7 @@
         android:id="@+id/checkBox10"
         android:layout_below="@+id/checkBox9"
         android:layout_alignParentStart="true" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -162,7 +163,7 @@
         android:text="@string/podsumowaniet"
         android:id="@+id/button5"
         android:layout_above="@+id/button3"
-        android:onClick="podsumowanie"
+        android:onClick="sumUp"
         android:layout_alignParentStart="true" />
 
     <Button
@@ -174,14 +175,5 @@
         android:layout_alignParentStart="true"
         android:layout_alignEnd="@+id/button5"
         android:onClick="openMain"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/relative"
-        android:id="@+id/textView12"
-        android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/checkBox3" />
-
 
 </RelativeLayout>

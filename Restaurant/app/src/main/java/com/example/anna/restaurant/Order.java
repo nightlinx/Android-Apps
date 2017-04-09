@@ -13,21 +13,26 @@ public class Order extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_order);
 
-        TextView rezult = (TextView) findViewById(R.id.textView11);
+        TextView result = (TextView) findViewById(R.id.textView11);
         Bundle data = getIntent().getExtras();
         String text = data.getString("menu");
-
-        System.out.println(text);
-        rezult.setText(text);
+        if (result != null) {
+            result.setText(text);
+        }
 
         TextView result2 = (TextView) findViewById(R.id.textView10);
         Bundle data2 = getIntent().getExtras();
         text = data.getString("contact");
-        result2.setText(text);
+        if (result2 != null) {
+            result2.setText(text);
+        }
     }
 
     public void openContacts(View view) {
         final Intent intent = new Intent(this,Menu.class);
         startActivity(intent);
+    }
+
+    public void sendOrder(View view) {
     }
 }

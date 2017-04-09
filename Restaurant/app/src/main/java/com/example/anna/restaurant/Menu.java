@@ -11,7 +11,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class Menu extends AppCompatActivity {
-private final int NR_OF_CHECKBOXES = 10;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,11 +19,11 @@ private final int NR_OF_CHECKBOXES = 10;
     }
 
     public void openContact(View view) {
-        Bundle koszyk = new Bundle();
-        koszyk.putString("menu", getMessage());
+        Bundle bundle = new Bundle();
+        bundle.putString("menu", getMessage());
 
         final Intent intent = new Intent(this,Contact.class);
-        intent.putExtras(koszyk);
+        intent.putExtras(bundle);
         startActivity(intent);
     }
 
@@ -48,7 +48,6 @@ private final int NR_OF_CHECKBOXES = 10;
         menu.add((CheckBox) findViewById(R.id.checkBox9));
         menu.add((CheckBox) findViewById(R.id.checkBox10));
 
-        //zabawa w ladne drukowanie listy
         for(CheckBox meal: menu){
             System.out.println("  "+meal.getText());
             if(meal.isChecked()){
@@ -56,26 +55,20 @@ private final int NR_OF_CHECKBOXES = 10;
             }
         }
 
-        //       ArrayList<CheckBox> result = menu.stream()
-        //               .filter(m -> m.isChecked())
-        //               .collect(Collectors.toList());		??
-
-
         if(!myMenu.isEmpty()){
             msg+=myMenu.get(0).getText();
             int i = 1;
-            for(i=1; i <myMenu.size(); i++){ //jesli size = 5 to od (1,2,3)
+            for(i=1; i <myMenu.size(); i++){
                 msg+="\n" + myMenu.get(i).getText();
             }
         }
-
         else{
-            msg+="nic nie zaznaczono!";
+            msg = "nic nie zaznaczono";
         }
-
         return msg;
     }
-    public void podsumowanie(View view){
+
+    public void sumUp(View view){
         Context context = getApplicationContext();
         int duration = Toast.LENGTH_LONG;
         Toast toast = Toast.makeText(context,getMessage(), duration);

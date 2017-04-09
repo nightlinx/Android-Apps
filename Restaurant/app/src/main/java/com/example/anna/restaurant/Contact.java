@@ -34,21 +34,22 @@ public class Contact extends AppCompatActivity {
 
         Bundle data = getIntent().getExtras();
         menu_text = data.getString("menu");
+        menu_text+="\nsmacznego!";
     }
 
     public void openOrder(View view) {
         if(isContactFull()){
-            Bundle koszyk = new Bundle();
+            Bundle bundle = new Bundle();
             final Intent intent_order = new Intent(this, Order.class);
 
-            koszyk.putString("contact", getMessage());
-            koszyk.putString("menu", menu_text);
-            intent_order.putExtras(koszyk);
+            bundle.putString("contact", getMessage());
+            bundle.putString("menu", menu_text);
+            intent_order.putExtras(bundle);
 
             startActivity(intent_order);
         }
         else {
-            podsumowanie();
+            sumUp();
         }
     }
 
@@ -75,19 +76,17 @@ public class Contact extends AppCompatActivity {
         return msg;
     }
 
-    public void podsumowanie(View view){
-        podsumowanie();
+    public void sumUp(View view){
+        sumUp();
     }
 
-    private void podsumowanie(){
+    private void sumUp(){
         Context context = getApplicationContext();
         int duration = Toast.LENGTH_LONG;
         Toast toast = Toast.makeText(context,getMessage(), duration);
         toast.show();
         toast.setGravity(Gravity.CENTER_HORIZONTAL,0,0);
     }
-
-
 
     public void switchMusic(View view) {
         if(switcher.isChecked()){
@@ -98,12 +97,6 @@ public class Contact extends AppCompatActivity {
             switcher.getTextOn();
             mp.pause();
         }
-    }
-
-    @Override
-    protected void onStart() {
-        Log.i("ON", "onStart");
-        super.onStart();
     }
 
     @Override
@@ -120,17 +113,5 @@ public class Contact extends AppCompatActivity {
         super.onPause();
         Log.i("ON", "onPause");
         mp.pause();
-    }
-
-    @Override
-    protected void onStop()
-    {
-        super.onStop();
-        Log.i("ON", "onStop");
-    }
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        Log.i("ON", "onDestroy");
     }
 }

@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Restaurant</string>
-    <string name="author">Anna Skalecka</string>
-    <string name="appInfo">Aplikacja daje możliość wyboru menu, podania swoich danych osobowych oraz ocenienia firmy.</string>
+    <string name="version">wersja 1.0</string>
+    <string name="appInfo">Aplikacja daje możliwość wyboru dania, podania swoich danych osobowych, ocenienia firmy oraz wysłania szczegółów zamówienia naszym pracownikom!</string>
     <string name="appTitle">Składanie zamówienia w restauracji</string>
     <string name="menu">menu</string>
     <string name="ofertaDnia">oferta dnia</string>
@@ -31,4 +31,9 @@
     <string name="rate">Oceń naszą restaurację!</string>
     <string name="relative">relative</string>
     <string name="linear">linear</string>
+    <string name="moreInfo">\@string/podaj wszystkie dane</string>
+    <string name="bonAppetit">\@string/smacznego!</string>
+    <string name="warning">\@string/nic nie zaznaczono!</string>
+    <string name="music">muzyka</string>
+    <string name="zamow">zamow</string>
 </resources>

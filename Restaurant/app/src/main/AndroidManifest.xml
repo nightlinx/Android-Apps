@@ -11,13 +11,20 @@
         <activity android:name=".Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Menu" />
+        <activity android:name=".Menu">
+            <intent-filter>
+                <action android:name="com.example.anna.restaurant.MENU_HERE"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <activity android:name=".Contact" />
-        <activity android:name=".Order"></activity>
+        <activity android:name=".Order">
+
+        </activity>
     </application>
 
 </manifest>
