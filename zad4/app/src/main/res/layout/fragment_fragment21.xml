@@ -1,0 +1,85 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anna.zad4.Fragment21">
+
+    <TextView
+        android:id="@+id/f21_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:labelFor="@+id/f21_name"
+        android:text="@string/f21_name_label" />
+
+    <EditText
+        android:id="@+id/f21_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_row="0"
+        android:layout_column="1" />
+
+    <TextView
+        android:id="@+id/f21_weight_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:labelFor="@+id/f21_weight"
+        android:text="@string/f21_weight_label" />
+
+    <EditText
+        android:id="@+id/f21_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/f21_time_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:labelFor="@+id/f21_time"
+        android:text="@string/f21_time_label" />
+
+    <EditText
+        android:id="@+id/f21_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        android:layout_column="1"
+        android:layout_row="2" />
+
+    <TextView
+        android:id="@+id/f21_rating_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:labelFor="@+id/f21_rating"
+        android:text="@string/f21_rating_label" />
+
+    <RatingBar
+        android:id="@+id/f21_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="1" />
+
+    <Button
+        android:id="@+id/f21_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="4"
+        android:text="@string/f21_save" />
+</GridLayout>

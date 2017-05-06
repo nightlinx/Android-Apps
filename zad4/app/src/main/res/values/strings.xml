@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">zad4</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="s_id">228038</string>
+    <string name="creation_date">06.05.2017</string>
+    <string name="author_name">Skałecka Anna</string>
+    <string name="f21_name_label">Nazwa</string>
+    <string name="f21_weight_label">Waga</string>
+    <string name="f21_time_label">Godzina</string>
+    <string name="f21_rating_label">Ocena</string>
+    <string name="f21_save">Zapisz</string>
+    <string name="f22_name_label">Marka</string>
+    <string name="f22_price_label">Cena</string>
+    <string name="f22_sport_label">Wersja sportowa</string>
+    <string name="f2_vegetable">Warzywo</string>
+    <string name="f2_car">Samochody</string>
 </resources>
