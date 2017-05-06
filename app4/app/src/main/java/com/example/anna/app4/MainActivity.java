@@ -1,8 +1,8 @@
 package com.example.anna.app4;
 
-
-import android.app.FragmentTransaction;
 import android.os.Bundle;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity implements Fragment1.OnWyborOpcjiListener{
 
