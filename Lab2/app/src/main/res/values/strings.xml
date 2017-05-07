@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="lista_prosta">lista prosta</string>
+    <string name="lista_multichoice">lista multichoice</string>
+    <string name="linia_prosta">linia prosta</string>
+    <string name="grid">grid1</string>
+</resources>
